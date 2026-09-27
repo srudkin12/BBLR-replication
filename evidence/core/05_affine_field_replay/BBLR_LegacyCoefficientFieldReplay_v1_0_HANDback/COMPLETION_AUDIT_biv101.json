@@ -1,0 +1,8 @@
+{
+  "track": "biv101",
+  "expected_chunks": 20200,
+  "present_chunks": 20200,
+  "expected_rows": 775000,
+  "wall_seconds": 10443.523235016968,
+  "status": "PASS"
+}

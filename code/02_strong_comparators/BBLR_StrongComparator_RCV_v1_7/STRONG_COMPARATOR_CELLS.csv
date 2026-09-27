@@ -1,0 +1,28 @@
+label,dgp,design,n_train,noise_sd,panel_block,expected_regime,reason,dgp_family,dgp_parameter_name,dgp_parameter_value,dgp_secondary_parameter_name,dgp_secondary_parameter_value,support_family,support_parameter_name,support_parameter_value,support_secondary_parameter_name,support_secondary_parameter_value
+shape_linear,U01,G00,500,0.25,A_shape_smooth,control,correctly linear control,legacy_anchor,,,,,hard_gap,gap_halfwidth,0.0,,
+shape_cubic,U03,G00,500,0.25,A_shape_smooth,mixed,smooth polynomial curvature,legacy_anchor,,,,,hard_gap,gap_halfwidth,0.0,,
+shape_quad_high,Q05,G00,500,0.25,A_shape_smooth,weak,strong quadratic curvature; higher-order local polynomial favourable,quadratic_curvature,a,0.8,,,hard_gap,gap_halfwidth,0.0,,
+shape_freq_high,F07,G00,500,0.25,A_shape_smooth,weak,rapid slope oscillation; Stage-2 oversmoothing risk,slope_frequency,cycles,4.0,slope_amplitude,1.0,hard_gap,gap_halfwidth,0.0,,
+shape_amp_mid,A04,G00,500,0.25,A_shape_smooth,mixed,moderate slope heterogeneity,slope_amplitude,slope_amplitude,1.5,cycles,1.0,hard_gap,gap_halfwidth,0.0,,
+shape_trans_broad,T01,G00,500,0.25,A_shape_smooth,weak,globally smooth broad transition,slope_transition_width,delta,1.2,slope_shift,1.0,hard_gap,gap_halfwidth,0.0,,
+shape_trans_mid,T04,G00,500,0.25,A_shape_smooth,mixed,moderately sharp transition,slope_transition_width,delta,0.3,slope_shift,1.0,hard_gap,gap_halfwidth,0.0,,
+shape_bump_narrow,B06,G00,500,0.25,A_shape_smooth,strong,highly localised feature,local_bump_width,width,0.1,max_slope_perturbation,1.0,hard_gap,gap_halfwidth,0.0,,
+nonsmooth_slope_kink,U10,G00,500,0.25,B_nonsmooth,stress,piecewise-linear slope regime,legacy_anchor,,,,,hard_gap,gap_halfwidth,0.0,,
+density_transition_normal,T04,normal,500,0.25,C_density_geometry,mixed,connected/clustered density geometry stress,slope_transition_width,delta,0.3,slope_shift,1.0,legacy,,,,
+density_transition_skewed,T04,skewed,500,0.25,C_density_geometry,mixed,connected/clustered density geometry stress,slope_transition_width,delta,0.3,slope_shift,1.0,legacy,,,,
+density_transition_gap,T04,gap,500,0.25,C_density_geometry,mixed,connected/clustered density geometry stress,slope_transition_width,delta,0.3,slope_shift,1.0,legacy,,,,
+support_sharp_center_G00,R04C03,G00,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,hard_gap,gap_halfwidth,0.0,,
+support_sharp_center_D50,R04C03,D50,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,soft_gap,central_retention,0.5,window_halfwidth,0.4
+support_sharp_center_D10,R04C03,D10,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+support_sharp_center_D02,R04C03,D02,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,soft_gap,central_retention,0.02,window_halfwidth,0.4
+support_sharp_center_G40,R04C03,G40,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,hard_gap,gap_halfwidth,0.4,,
+support_sharp_center_G80,R04C03,G80,500,0.25,D_support_ladder,strong_at_sparse,sharp centered transition across support depletion/separation ladder,support_transition,delta,0.1,centre,0.0,hard_gap,gap_halfwidth,0.8,,
+width_broad_D10,R01C03,D10,500,0.25,E_width_support,varies,transition sharpness crossed with connected/sparse/disconnected support,support_transition,delta,0.8,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+width_moderate_D10,R02C03,D10,500,0.25,E_width_support,varies,transition sharpness crossed with connected/sparse/disconnected support,support_transition,delta,0.4,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+width_narrow_D10,R03C03,D10,500,0.25,E_width_support,varies,transition sharpness crossed with connected/sparse/disconnected support,support_transition,delta,0.2,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+width_verysharp_D10,R05C03,D10,500,0.25,E_width_support,varies,transition sharpness crossed with connected/sparse/disconnected support,support_transition,delta,0.05,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+location_p08_G40,R04C05,G40,500,0.25,F_location_gap,geometry_dependent,transition location relative to support-gap edge/interior,support_transition,delta,0.1,centre,0.8,hard_gap,gap_halfwidth,0.4,,
+noise_highfreq_0.1,F07,G00,500,0.1,G_noise_scaling,varies,noise sensitivity around representative good/bad regimes,slope_frequency,cycles,4.0,slope_amplitude,1.0,hard_gap,gap_halfwidth,0.0,,
+noise_highfreq_0.5,F07,G00,500,0.5,G_noise_scaling,varies,noise sensitivity around representative good/bad regimes,slope_frequency,cycles,4.0,slope_amplitude,1.0,hard_gap,gap_halfwidth,0.0,,
+n_sparse_center_250,R04C03,D10,250,0.25,H_sample_scaling,varies,sample-size scaling in representative operating regimes,support_transition,delta,0.1,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4
+n_sparse_center_2000,R04C03,D10,2000,0.25,H_sample_scaling,varies,sample-size scaling in representative operating regimes,support_transition,delta,0.1,centre,0.0,soft_gap,central_retention,0.1,window_halfwidth,0.4

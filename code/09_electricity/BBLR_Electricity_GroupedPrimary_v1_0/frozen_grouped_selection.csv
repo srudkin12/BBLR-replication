@@ -1,0 +1,11 @@
+outcome,method,param,production_rmse
+peak,BBLR,"(3.0, 0.0)",0.4043771635907567
+peak,LLR,"3.0",0.4043771635907567
+peak,LP2,"8.0",0.679197
+peak,PSpline,"(5, 0.1)",0.389214
+peak,Hinge,"(20.0, 28.0)",0.393194
+evening1800,BBLR,"(5.0, 4.0)",0.4638227902297962
+evening1800,LLR,"3.0",0.4639349406584266
+evening1800,LP2,"8.0",0.860383
+evening1800,PSpline,"(4, 0.01)",0.45374
+evening1800,Hinge,"(20.0, 28.0)",0.454768

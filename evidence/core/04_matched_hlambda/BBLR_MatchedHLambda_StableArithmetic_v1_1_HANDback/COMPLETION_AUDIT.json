@@ -1,0 +1,7 @@
+{
+  "expected_rows": 92000,
+  "expected_chunks": 3680,
+  "missing_chunks": 0,
+  "wall_seconds": 598.763050234993,
+  "status": "PASS"
+}

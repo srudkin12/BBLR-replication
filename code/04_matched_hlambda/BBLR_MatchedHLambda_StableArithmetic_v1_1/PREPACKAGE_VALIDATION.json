@@ -1,0 +1,11 @@
+{
+  "package": "BBLR_MatchedHLambda_StableArithmetic_v1_1",
+  "unit_tests": "3 passed",
+  "preflight_rows": 36,
+  "preflight_cells": 10,
+  "preflight_analysis_status": "PASS",
+  "preflight_archive_test_rmse_max_abs_diff": 9.887923813067799e-17,
+  "preflight_archive_grid_rmse_max_abs_diff": 9.887923813067799e-17,
+  "preflight_max_normal_centered_test_slope_abs_diff": 8.418155061917787e-11,
+  "preflight_fallback_mask_disagreement_share": 0.0
+}

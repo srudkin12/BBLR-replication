@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-78-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "workers": 32,
+  "random_repeats": 1000,
+  "group_repeats": 1000,
+  "bootstrap": 1000,
+  "seed": 270914,
+  "outcomes_recomputed": [
+    "evening1800"
+  ],
+  "mplbackend": "Agg"
+}

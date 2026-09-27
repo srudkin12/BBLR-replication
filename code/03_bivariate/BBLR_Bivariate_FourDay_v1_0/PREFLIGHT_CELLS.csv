@@ -1,0 +1,3 @@
+label,dgp,design,n_train,noise_sd,block,expected_regime
+pre_linear,B01,uniform,250,0.25,preflight,control
+pre_sparse,B10,vertical_soft10,250,0.25,preflight,strong

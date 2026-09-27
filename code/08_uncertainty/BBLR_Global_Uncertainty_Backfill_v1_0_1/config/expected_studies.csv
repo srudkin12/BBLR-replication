@@ -1,0 +1,12 @@
+study_id,description,expected_cells,expected_reps_per_cell,expected_replications,priority,patterns
+operating_map,Univariate repeated-CV operating map,92,1000,92000,core,"RepeatedCV_Operating|rcv1000_operating|operating_map"
+strong_comparator,Univariate strong-comparator suite,27,1000,27000,core,"StrongComparator|strong_comparator"
+bivariate_broad,Bivariate broad suite,58,1000,58000,core,"bivariate.*broad|broad.*bivariate|BIVARIATE_BROAD"
+bivariate_support_aware,Bivariate support-aware suite,19,1000,19000,core,"support[_ -]?aware|BIVARIATE_SUPPORT_AWARE"
+bivariate_fine_locality,Bivariate fine-locality suite,16,1500,24000,core,"fine[_ -]?locality|BIVARIATE_FINE"
+matched_hlambda,Matched-H-lambda mechanism audit,92,1000,92000,core,"MatchedHLambda_Audit"
+matched_hlambda_stable,Matched-H-lambda stable-arithmetic audit,92,1000,92000,audit,"MatchedHLambda_StableArithmetic|stable_arithmetic"
+legacy_coefficient_replay,Legacy coefficient-field and alpha replay,212,,220000,core,"LegacyCoefficientFieldReplay|LEGACY_COEFFICIENT_FIELD_REPLICATIONS"
+higher_dimension,Higher-dimensional coefficient-field production,82,1000,82000,core,"AlphaIrrelevant_DimensionProduction|DimensionProduction"
+local_sparse,Targeted local-sparse comparator audit,9,500,4500,core,"LocalSparseComparator"
+noise_uncertainty,Nine-level high-frequency noise audit,9,1000,9000,core,"Noise_Uncertainty_Audit"

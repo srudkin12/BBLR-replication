@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "unit_tests": "5/5",
+  "scientific_preflight_cells": 4,
+  "scientific_preflight_cell_reps": 4,
+  "scientific_preflight_method_rows": 20,
+  "scientific_preflight_failures": 0,
+  "preflight_methods": [
+    "BBLR",
+    "LLR",
+    "LL_ALASSO",
+    "LASSO",
+    "OLS"
+  ],
+  "zero_penalty_identity_test": "LL_ALASSO(lambda_frac=0) equals LLR under the same hard-ball neighborhood safeguard",
+  "d12_smoke_test": "PASS",
+  "notes": "Preflight outputs are code-validation only and are not to be used as scientific evidence."
+}

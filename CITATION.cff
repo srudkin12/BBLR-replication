@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these replication materials, please cite the associated paper."
+title: "Regularising Local Affine Fields under Uneven Local Information: Ball-Based Linear Regression"
+type: software
+authors:
+  - family-names: "Dłotko"
+    given-names: "Paweł"
+  - family-names: "Piątek"
+    given-names: "Sylwester"
+  - family-names: "Rudkin"
+    given-names: "Simon"
+  - family-names: "Topolnicki"
+    given-names: "Rafał"
+version: "1.0"
+license: MIT

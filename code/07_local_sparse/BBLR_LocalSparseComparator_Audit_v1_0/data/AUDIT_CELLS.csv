@@ -1,0 +1,10 @@
+cell_id,track,d,active_dim,dgp,design,n_dev,n_test,noise_sd,origin_supported,cv_folds,cv_repeats,base_seed,label,audit_role,original_cell_id
+LS_009,ambient_dimension,5,2,linear,uniform,600,1600,0.5,True,3,2,2180056,Two active coordinates; independent nuisance dimensions,linear independent-nuisance negative control,P2_009
+LS_010,ambient_dimension,5,2,smooth,uniform,600,1600,0.5,True,3,2,2190063,Two active coordinates; independent nuisance dimensions,smooth independent nuisance,P2_010
+LS_011,ambient_dimension,5,2,transition,uniform,600,1600,0.5,True,3,2,2200070,Two active coordinates; independent nuisance dimensions,sharp transition independent nuisance,P2_011
+LS_016,ambient_dimension,8,2,highfreq,uniform,600,1600,0.5,True,3,2,2250105,Two active coordinates; independent nuisance dimensions,high-frequency negative control d=8,P2_016
+LS_025,flat_null,8,0,flat,uniform,600,1600,0.5,True,3,2,2340168,Pure constant mean; every slope is irrelevant,pure-null sparse negative control,P2_025
+LS_036,correlated_nuisance,8,2,smooth,corr_nuisance,600,1600,0.5,True,3,2,2450245,Outcome ignores nuisance coordinates correlated with first active coordinate,smooth correlated nuisance,P2_036
+LS_037,correlated_nuisance,8,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2460252,Outcome ignores nuisance coordinates correlated with first active coordinate,sharp transition correlated nuisance d=8,P2_037
+LS_040,correlated_nuisance,12,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2490273,Outcome ignores nuisance coordinates correlated with first active coordinate,sharp transition correlated nuisance d=12,P2_040
+LS_045,support_geometry,8,2,transition,aligned_soft10,600,1600,0.5,True,3,2,2540308,Thin support aligned with changing-gradient direction,sharp transition aligned thin support d=8,P2_045

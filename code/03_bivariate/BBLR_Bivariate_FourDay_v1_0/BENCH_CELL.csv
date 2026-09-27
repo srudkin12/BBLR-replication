@@ -1,0 +1,2 @@
+label,dgp,design,n_train,noise_sd,block,expected_regime
+bench_sparse,B10,vertical_soft10,500,0.25,bench,strong

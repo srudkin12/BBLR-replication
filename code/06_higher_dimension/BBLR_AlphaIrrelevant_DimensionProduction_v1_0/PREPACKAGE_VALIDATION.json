@@ -1,0 +1,61 @@
+{
+  "version": "production_v1.0",
+  "unit_tests": "9 passed",
+  "local_scientific_preflight": {
+    "status": "PASS",
+    "n_cells_observed": 8,
+    "cell_rep_observed": 8,
+    "cell_rep_expected_from_observed_cells": 8,
+    "rows_ok": 81,
+    "rows_total": 81,
+    "failed_rows": 0,
+    "matched_radius_identity_status": "PASS"
+  },
+  "matched_radius_identity_preflight": {
+    "status": "PASS",
+    "n_stage2_zero_pairs": 0,
+    "empirical_check": "not_applicable_no_stage2_zero_selections",
+    "unit_test_exact_nesting": true,
+    "tolerance": 1e-10,
+    "max_abs_metric_difference": 0.0,
+    "metric_max_abs_differences": {
+      "test_mean_rmse": NaN,
+      "gradient_vector_rmse": NaN,
+      "active_gradient_vector_rmse": NaN,
+      "tangent_alpha_rmse": NaN,
+      "reference_alpha0_abs_error": NaN,
+      "coefficient_field_vector_rmse": NaN,
+      "nuisance_vector_rmse": NaN,
+      "nuisance_vector_rmse_per_sqrt_dim": NaN
+    }
+  },
+  "production_cells": 82,
+  "production_reps_per_cell": 1000,
+  "production_cell_reps": 82000,
+  "workers_requested": 80,
+  "production_cells_sha256": "632d60fd1b8e76bdaa19b53dff0b2f642d64207432a4be76ef2d59f4d0c31850",
+  "phase2_cell_design_frozen_unchanged": true,
+  "dimensions": [
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "tracks": {
+    "all_active_dimension": 10,
+    "alpha_extrapolation": 12,
+    "ambient_dimension": 20,
+    "correlated_nuisance": 12,
+    "flat_null": 8,
+    "sample_size_recovery": 12,
+    "support_geometry": 8
+  },
+  "preflight_note": "Reduced-size code/integrity preflight; production cell DGPs and n values are frozen in PRODUCTION_CELLS.csv.",
+  "scientific_changes_from_phase2": [
+    "Common min_points=max(d+5,15) safeguard for BBLR Stage 1, BBLR epsilon=0, tuned LLR, and matched-radius LLR, enforcing exact nesting.",
+    "Conditional LLR_MATCHED_BBLR_R at BBLR-selected Stage-1 radius without retuning.",
+    "Dimension-normalised nuisance vector/norm diagnostics and scaled threshold exceedance rates.",
+    "Matched-radius Stage-2 cell and track summaries plus exact-nesting audit."
+  ]
+}

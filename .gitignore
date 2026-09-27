@@ -1,0 +1,34 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# R/session artefacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor
+.DS_Store
+*~
+*.swp
+
+# Large historical packaging
+*.zip
+*.zip.sha256
+
+# Runtime/checkpoints
+checkpoint/
+checkpoints/
+cache/
+tmp/
+temp/
+# Third-party electricity observations: local reconstruction only
+code/09_electricity/**/source_data/*.csv
+code/09_electricity/**/source_data/*.csv.gz
+code/09_electricity/**/source_data/*.parquet
+code/09_electricity/**/source_data/*.feather
+code/09_electricity/**/source_data/*.rds
+code/09_electricity/**/source_data/*.RData

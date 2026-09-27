@@ -1,0 +1,17 @@
+file,line,tokens,text
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/DESIGN_NOTE.md,23,source,The source handback used to freeze the configurations had SHA-256:
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/INTERPRETATION_RULES.md,28,license,"The audit never licenses the phrase ""true derivative"" for an empirical curve. If BBLR, LP2, and the spline remain statistically/diagnostically difficult to distinguish, the manuscript should say that the data support a common broad coefficient shape while not identifying a unique best derivative estimator."
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/README.md,19,source,source .venv/bin/activate
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/README.md,26,fpp2;elecdemand;download,The preflight downloads the canonical `fpp2::elecdemand` half-hourly data if it is not already present and reconstructs the same daily peak/18:00 workday samples as the production exercise.
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,9,source,SRC=ROOT/'source_data'; SRC.mkdir(exist_ok=True)
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,10,elecdemand,HALF=SRC/'elecdemand.csv'
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,12,fpp2;elecdemand,URL='https://vincentarelbundock.github.io/Rdatasets/csv/fpp2/elecdemand.csv'
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,17,fpp2;elecdemand;download,        print(f'Downloading canonical fpp2::elecdemand from {URL}')
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,27,source,        raise RuntimeError(f'Half-hourly source missing columns: {sorted(need-set(h.columns))}')
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,30,source,    if h.isna().any().any(): raise RuntimeError('NA/non-numeric values in canonical half-hourly source')
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/preflight.py,57,source,    if not need2.issubset(d.columns): raise RuntimeError('Bundled elecdaily source has unexpected columns')
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/run_coefficient_validation.py,18,source,SRC = ROOT / 'source_data'
+code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/scripts/run_coefficient_validation.py,383,source,"        for p in sorted(SRC.glob('construction_audit.csv')): z.write(p,arcname='source_data/'+p.name)"
+code/09_electricity/BBLR_Electricity_GroupedPrimary_v1_0/scripts/preflight.py,5,source,"req=[ROOT/'source_data/peak_workdays.csv',ROOT/'source_data/evening1800_workdays.csv',ROOT/'frozen_grouped_selection.csv']"
+code/09_electricity/BBLR_Electricity_GroupedPrimary_v1_0/scripts/preflight.py,12,source,    d=pd.read_csv(ROOT/f'source_data/{name}_workdays.csv')
+code/09_electricity/BBLR_Electricity_GroupedPrimary_v1_0/scripts/run_grouped_primary.py,99,source,    d=pd.read_csv(ROOT/f'source_data/{name}_workdays.csv'); x=d.Temperature.to_numpy(float); y=d.y.to_numpy(float); groups=d.week_group.to_numpy()

@@ -1,0 +1,9 @@
+{
+  "expected_rows": 92000,
+  "expected_chunks": 3680,
+  "missing_chunks": 0,
+  "missing_files": [],
+  "wall_seconds": 276.44616978394333,
+  "jobs": 140,
+  "status": "PASS"
+}

@@ -1,0 +1,58 @@
+{
+  "UV92_rows": 276000,
+  "UV92_unique_replications": 92000,
+  "UV27_rows": 243000,
+  "UV27_unique_replications": 27000,
+  "BIV101_rows": 775000,
+  "BIV_unique_replications": 101000,
+  "BIV_unique_by_suite": {
+    "biv16_fine": 24000,
+    "biv19_support": 19000,
+    "biv58_broad": 58000
+  },
+  "preflight_rows": {
+    "uv92": 12,
+    "uv27": 36,
+    "biv101": 63
+  },
+  "methods_uv27": {
+    "BBLR": 27000,
+    "LLR": 27000,
+    "AKLLR": 27000,
+    "AKLP2": 27000,
+    "SPLINE": 27000,
+    "CAKLLR": 27000,
+    "CAKLP2": 27000,
+    "CSPLINE": 27000,
+    "LLR_MATCHED_R": 27000
+  },
+  "methods_biv": {
+    "biv16_fine": {
+      "BBLR": 24000,
+      "LLR": 24000,
+      "AKLP2": 24000,
+      "TSPLINE": 24000,
+      "LLR_MATCHED_R": 24000
+    },
+    "biv19_support": {
+      "BBLR": 19000,
+      "LLR": 19000,
+      "AKLLR": 19000,
+      "AKLP2": 19000,
+      "TSPLINE": 19000,
+      "CTSPLINE": 19000,
+      "LLR_MATCHED_R": 19000
+    },
+    "biv58_broad": {
+      "BBLR": 58000,
+      "LLR": 58000,
+      "LP2": 58000,
+      "AKLLR": 58000,
+      "AKLP2": 58000,
+      "TSPLINE": 58000,
+      "OLS": 58000,
+      "GQ2": 58000,
+      "LLR_MATCHED_R": 58000
+    }
+  }
+}

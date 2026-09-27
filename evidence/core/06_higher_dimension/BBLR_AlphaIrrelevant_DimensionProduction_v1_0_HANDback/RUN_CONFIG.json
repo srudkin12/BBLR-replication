@@ -1,0 +1,11 @@
+{
+  "cells_file": "PRODUCTION_CELLS.csv",
+  "cells": 82,
+  "reps": 1000,
+  "expected_cell_reps": 82000,
+  "chunk_reps": 2,
+  "jobs_requested": 80,
+  "scientific_version": "production_v1.0",
+  "exact_nesting_safeguard": "common min_points=max(d+5,15) for BBLR Stage 1, tuned LLR, and matched-radius LLR",
+  "matched_radius_method": "LLR_MATCHED_BBLR_R"
+}

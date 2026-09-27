@@ -1,0 +1,10 @@
+cell_id,original_cell_id,audit_role,d,dgp,design,n,positive_penalty_share,median_lambda_frac,mean_lambda_frac,median_cv_rmse,median_slope_zero_share,median_active_zero_share,median_nuisance_zero_share
+LS_009,P2_009,linear independent-nuisance negative control,5,linear,uniform,500,0.962,0.025,0.026650000000000004,0.5046384585714707,0.583625,0.0,0.9727083333333332
+LS_010,P2_010,smooth independent nuisance,5,smooth,uniform,500,0.948,0.025,0.023950000000000003,0.5128327121661449,0.591375,0.0,0.985625
+LS_011,P2_011,sharp transition independent nuisance,5,transition,uniform,500,1.0,0.05,0.0449,0.5269763841374058,0.5626249999999999,0.0,0.9321875
+LS_016,P2_016,high-frequency negative control d=8,8,highfreq,uniform,500,0.996,0.025,0.0263,0.5050080496554086,0.742578125,0.0,0.9901041666666668
+LS_025,P2_025,pure-null sparse negative control,8,flat,uniform,500,1.0,0.7,0.6768,0.500456497587306,0.7951171875,,0.7951171875
+LS_036,P2_036,smooth correlated nuisance,8,smooth,corr_nuisance,500,0.982,0.025,0.02875,0.510218181516374,0.6794140625,0.0,0.9057291666666668
+LS_037,P2_037,sharp transition correlated nuisance d=8,8,transition,corr_nuisance,500,1.0,0.05,0.06875,0.5151605108297437,0.715390625,0.0509375,0.9338541666666667
+LS_040,P2_040,sharp transition correlated nuisance d=12,12,transition,corr_nuisance,500,1.0,0.05,0.07165,0.51440958627976,0.8068229166666667,0.052343749999999994,0.95984375
+LS_045,P2_045,sharp transition aligned thin support d=8,8,transition,aligned_soft10,500,1.0,0.025,0.03395,0.5266311715327858,0.7362109375,0.0,0.9816145833333334

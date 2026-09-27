@@ -1,0 +1,12 @@
+study_id,candidates_before,candidates_selected,selection_rule
+matched_hlambda,3699,1,production_consolidated_matched_hlambda
+matched_hlambda_stable,3696,1,production_consolidated_stable_arithmetic
+legacy_coefficient_replay,32130,2,production_consolidated_replay_files
+higher_dimension,41008,41000,production1000_only
+bivariate_broad,23201,23201,all_candidates
+bivariate_fine_locality,24001,24001,all_candidates
+bivariate_support_aware,19002,19002,all_candidates
+operating_map,7363,7363,all_candidates
+strong_comparator,10801,10801,all_candidates
+noise_uncertainty,1802,1802,all_candidates
+local_sparse,4504,4504,all_candidates

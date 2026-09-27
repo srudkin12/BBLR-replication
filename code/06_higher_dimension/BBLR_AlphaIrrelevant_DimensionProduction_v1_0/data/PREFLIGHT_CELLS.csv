@@ -1,0 +1,9 @@
+cell_id,track,d,active_dim,dgp,design,n_dev,n_test,noise_sd,origin_supported,cv_folds,cv_repeats,base_seed,label
+P2_001,ambient_dimension,2,2,linear,uniform,180,120,0.5,True,2,1,2100000,Two active coordinates; independent nuisance dimensions [reduced-size code preflight]
+P2_020,ambient_dimension,12,2,highfreq,uniform,240,120,0.5,True,2,1,2290133,Two active coordinates; independent nuisance dimensions [reduced-size code preflight]
+P2_027,flat_null,12,0,flat,uniform,240,120,0.5,True,2,1,2360182,Pure constant mean; every slope is irrelevant [reduced-size code preflight]
+P2_040,correlated_nuisance,12,2,transition,corr_nuisance,240,120,0.5,True,2,1,2490273,Outcome ignores nuisance coordinates correlated with first active coordinate [reduced-size code preflight]
+P2_049,all_active_dimension,2,2,linear_all,uniform,180,120,0.5,True,2,1,2580336,All coordinates genuinely active [reduced-size code preflight]
+P2_058,all_active_dimension,12,12,smooth_all,uniform,240,120,0.5,True,2,1,2670399,All coordinates genuinely active [reduced-size code preflight]
+P2_066,alpha_extrapolation,8,2,smooth,shifted_uniform,180,120,0.5,False,2,1,2750455,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative [reduced-size code preflight]"
+P2_070,alpha_extrapolation,12,2,transition,shifted_uniform,240,120,0.5,False,2,1,2790483,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative [reduced-size code preflight]"

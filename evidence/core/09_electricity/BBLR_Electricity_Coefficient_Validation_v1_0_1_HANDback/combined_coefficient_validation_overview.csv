@@ -1,0 +1,13 @@
+outcome,scheme,band,best_method_simpson_design,best_simpson_secant_mse_design
+peak,random,0.5-1,LP2,0.5353759951648239
+peak,random,1-2,PSpline,0.1302871250855113
+peak,random,2-4,PSpline,0.0344822658147571
+peak,grouped_week,0.5-1,PSpline,0.505377248269623
+peak,grouped_week,1-2,PSpline,0.1250892267006859
+peak,grouped_week,2-4,PSpline,0.0343663670762247
+evening1800,random,0.5-1,Hinge,0.7903106607501607
+evening1800,random,1-2,PSpline,0.191229171049388
+evening1800,random,2-4,PSpline,0.0506687093948645
+evening1800,grouped_week,0.5-1,Hinge,0.719475109095826
+evening1800,grouped_week,1-2,Hinge,0.1772559785192961
+evening1800,grouped_week,2-4,LP2,0.0499574474194543

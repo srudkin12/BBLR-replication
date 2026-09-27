@@ -1,0 +1,17 @@
+cell_id,label,block,best_gradient_method,best_gradient_rmse,best_outcome_method,best_outcome_rmse
+0,shape_sin_high,A_shape,AKLP2,0.40205763033132175,BBLR,0.26245840984874835
+1,shape_sin_diag_high,A_shape,BBLR,0.39997238095877397,BBLR,0.2620526760440868
+2,shape_trans_sharp,A_shape,AKLP2,0.17988884977320285,BBLR,0.25459416033034765
+3,shape_trans_diag_sharp,A_shape,AKLP2,0.18477009250940962,BBLR,0.25568743107403336
+4,shape_bump_narrow,A_shape,BBLR,0.11412389084549196,BBLR,0.25285302838417767
+5,vertical_sharp_vertical_soft10,B_support_vertical,BBLR,0.1097460821187119,BBLR,0.25221957036704956
+6,vertical_sharp_vertical_soft02,B_support_vertical,BBLR,0.0926237088800238,BBLR,0.2522589598839431
+7,vertical_sharp_vertical_gap40,B_support_vertical,BBLR,0.05928526167347145,BBLR,0.2521325518083422
+8,diag_sharp_diag_soft10,C_support_diagonal,BBLR,0.11125457003495255,BBLR,0.2524844220340607
+9,diag_sharp_diag_soft02,C_support_diagonal,LLR,0.10986388267959324,BBLR,0.2522007244771507
+10,diag_sharp_diag_gap40,C_support_diagonal,BBLR,0.0735442241092002,BBLR,0.2523499765663707
+11,bump_narrow_hole_soft10,D_support_radial,LLR,0.040112849081137006,LLR,0.2507641039815016
+12,bump_narrow_hole_soft02,D_support_radial,LLR,0.02275032302664,LLR,0.2504947665399715
+13,bump_narrow_hole_gap55,D_support_radial,LLR,0.01560670980552655,LLR,0.2505636698987308
+14,highfreq_noise0.10,G_noise_scaling,AKLP2,0.27059353136754816,BBLR,0.10920046153899825
+15,sparse_transition_noise0.50,G_noise_scaling,BBLR,0.1605400660253099,BBLR,0.5037579877900061

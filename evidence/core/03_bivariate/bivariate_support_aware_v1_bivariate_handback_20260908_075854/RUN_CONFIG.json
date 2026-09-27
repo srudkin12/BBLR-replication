@@ -1,0 +1,73 @@
+{
+  "folds": 5,
+  "repeats": 5,
+  "development_multiplier": 2.0,
+  "n_test": 2500,
+  "grid_n": 31,
+  "r_grid": [
+    0.25,
+    0.35,
+    0.5,
+    0.7,
+    1.0,
+    1.4,
+    2.0,
+    3.0,
+    6.0
+  ],
+  "eps_grid": [
+    0.0,
+    0.15,
+    0.25,
+    0.35,
+    0.5,
+    0.7,
+    1.0,
+    1.4,
+    2.0,
+    3.0,
+    6.0
+  ],
+  "k_grid": [
+    30,
+    50,
+    80,
+    120,
+    180,
+    260,
+    380,
+    550,
+    900,
+    1400,
+    2500
+  ],
+  "knot_grid": [
+    4,
+    6,
+    8
+  ],
+  "alpha_grid": [
+    0.001,
+    0.1,
+    10.0,
+    1000.0
+  ],
+  "gap_grid": [
+    4.0,
+    6.0,
+    Infinity
+  ],
+  "methods": [
+    "BBLR",
+    "LLR",
+    "AKLLR",
+    "AKLP2",
+    "TSPLINE",
+    "CTSPLINE"
+  ],
+  "min_stage1": 10,
+  "seed_offset": 3141592,
+  "jobs": 140,
+  "chunk_reps": 2,
+  "resume": true
+}

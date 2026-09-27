@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "rows": 45000,
+  "expected_method_cells": 45,
+  "min_reps": 1000,
+  "max_reps": 1000
+}

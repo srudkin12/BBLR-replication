@@ -1,0 +1,60 @@
+{
+  "schema": "BBLR_STRONG_COMPARATOR_HANDOFF_V1",
+  "files": [
+    {
+      "filename": "RUN_CONFIG.json",
+      "bytes": 1209,
+      "sha256": "989bf5eb8babe464634374ede2847a79d42be949393f52510cf2fead0e35fff9"
+    },
+    {
+      "filename": "COMPLETION_AUDIT.json",
+      "bytes": 193,
+      "sha256": "e29b6fcb01c088e5dcd8511ac9dee4c18bc009d4ad88926e7c48126daf4f2756"
+    },
+    {
+      "filename": "EXPECTED_CHUNKS.csv",
+      "bytes": 1348520,
+      "sha256": "4cc344d9a23c826fb76aad5c004581f4cc7109ceae929401a227e3166ffbc9b1"
+    },
+    {
+      "filename": "CHUNK_MANIFEST.csv",
+      "bytes": 2073893,
+      "sha256": "199d690f64c1bef78a2eaff056866304054918ccde3d6f0d53cc44a82806ff93"
+    },
+    {
+      "filename": "STRONG_COMPARATOR_CELLS.csv",
+      "bytes": 5497,
+      "sha256": "b2ca5881f7268cfee50a2150b0a15999e8c571dac3b5881874f8b53842b8b3af"
+    },
+    {
+      "filename": "SC_CELL_METHOD_SUMMARY.csv",
+      "bytes": 50703,
+      "sha256": "ac3a39fb4eb6f9c5232e28592217d3d630c588c8b822e6303c78a90eb41da562"
+    },
+    {
+      "filename": "SC_BBLR_PAIRWISE_CELL_SUMMARY.csv",
+      "bytes": 28907,
+      "sha256": "aca53c30a9c3de422b662b543a7ef4baae055a64c486147596d7f240f780cae1"
+    },
+    {
+      "filename": "SC_PARETO_CELL_SUMMARY.csv",
+      "bytes": 17093,
+      "sha256": "00ae9fc9f3f99a9dedb0f13f4cf2cfb5a2cac6f4b39262c274c342d08a1abcc9"
+    },
+    {
+      "filename": "SC_BLOCK_PAIRWISE_SUMMARY.csv",
+      "bytes": 4700,
+      "sha256": "347b485ade51e289070966dffb4d892d71cd23f3ebb29401f4290946b52d912a"
+    },
+    {
+      "filename": "SC_CELL_BEST_METHODS.csv",
+      "bytes": 3467,
+      "sha256": "4c2e511d192e8c4f1831b2ab6338107b98b5d869c86ad686ee51fe07b82fc790"
+    },
+    {
+      "filename": "SC_SELECTED_ALL.csv.gz",
+      "bytes": 8809937,
+      "sha256": "b6429c7eea9bad2c3b29f1b9e8c108063dafa58e836ac6fa8f2635bce01eb0ab"
+    }
+  ]
+}

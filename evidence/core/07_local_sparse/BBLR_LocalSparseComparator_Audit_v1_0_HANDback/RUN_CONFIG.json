@@ -1,0 +1,27 @@
+{
+  "scientific_version": "local_sparse_comparator_audit_v1.0",
+  "cells_file": "AUDIT_CELLS.csv",
+  "cells": 9,
+  "reps": 500,
+  "expected_cell_reps": 4500,
+  "jobs_requested": 80,
+  "chunk_reps": 1,
+  "local_sparse_method": "LL_ALASSO",
+  "local_sparse_description": "hard-ball local linear adaptive Lasso; unpenalized intercept; local slope standardization; adaptive weights from unpenalized local fit; radius and lambda fraction tuned by repeated outcome CV",
+  "lambda_fractions": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.7
+  ],
+  "bblr_eps_over_r": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ]
+}

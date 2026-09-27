@@ -1,0 +1,53 @@
+{
+  "folds": 5,
+  "repeats": 10,
+  "development_multiplier": 2.0,
+  "n_test": 3000,
+  "n_stability_grid": 81,
+  "n_grid_eval": 401,
+  "r_grid": [
+    0.08,
+    0.12,
+    0.18,
+    0.26,
+    0.38,
+    0.55,
+    0.8,
+    1.2,
+    2.0,
+    4.0
+  ],
+  "eps_grid": [
+    0.0,
+    0.04,
+    0.08,
+    0.12,
+    0.18,
+    0.26,
+    0.38,
+    0.55,
+    0.8,
+    1.2,
+    2.0,
+    4.0
+  ],
+  "tolerances": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "min_stage1": 15,
+  "min_stage2": 1,
+  "guard_width": 0.1,
+  "seed_offset": 1618033,
+  "jobs": 140,
+  "chunk_reps": 25,
+  "resume": true,
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "cells_file": "/media/simon/E490B01790AFEE6C/BBLR2/BBLR_RepeatedCV_Operating_v1_6/RCV1000_OPERATING_CELLS.csv"
+}

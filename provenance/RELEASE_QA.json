@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-26T21:09:40.359496",
+  "release_path": "/media/simon/E490B01790AFEE6C/BBLR2/BBLR_Paper1_Replication_Release_v1_0",
+  "release_file_count": 659,
+  "release_size_bytes": 96113638,
+  "code_files": 392,
+  "compact_evidence_files": 253,
+  "external_archives_recorded": 31,
+  "excluded_members_recorded": 146,
+  "warnings": [],
+  "files_over_100mb": [],
+  "embedded_zip_files": [],
+  "venv_files": [],
+  "git_internal_files": [],
+  "pass_no_files_over_100mb": true,
+  "pass_no_embedded_zip_files": true,
+  "pass_no_venv": true,
+  "pass_no_git_internal": true,
+  "overall_pass": true
+}

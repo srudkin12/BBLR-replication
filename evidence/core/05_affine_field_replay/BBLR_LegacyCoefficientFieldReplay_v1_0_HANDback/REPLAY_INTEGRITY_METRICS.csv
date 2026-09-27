@@ -1,0 +1,9 @@
+old_metric,replay_metric,n,max_abs_error
+old_test_y_rmse,test_y_rmse_replay,1074000,0.0
+old_test_mean_rmse,test_mean_rmse_replay,890000,0.0
+old_test_slope_rmse,test_slope_rmse_replay,400000,4.440892098500626e-16
+old_grid_slope_rmse,grid_slope_rmse_replay,216000,3.552713678800501e-15
+old_test_gradient_rmse,test_gradient_rmse_replay,674000,0.0
+old_test_slope1_rmse,test_slope1_rmse_replay,674000,0.0
+old_test_slope2_rmse,test_slope2_rmse_replay,674000,3.3881317890172014e-21
+old_grid_gradient_rmse,grid_gradient_rmse_replay,674000,3.552713678800501e-15

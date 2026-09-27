@@ -1,0 +1,8 @@
+{
+  "track": "uv92",
+  "expected_chunks": 9200,
+  "present_chunks": 9200,
+  "expected_rows": 276000,
+  "wall_seconds": 1503.2657051500864,
+  "status": "PASS"
+}

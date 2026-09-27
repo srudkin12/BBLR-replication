@@ -1,0 +1,13 @@
+label,dgp,design,n_train,noise_sd,reason
+continuous_smooth,R01C03,G00,500,0.25,smooth transition; connected support; spline-favourable control
+continuous_sharp,R05C03,G00,500,0.25,sharp transition; connected support
+soft75_sharp,R04C03,D75,500,0.25,weak depletion where BBLR advantage largely disappears
+soft50_sharp,R04C03,D50,500,0.25,boundary region between global smoothers and BBLR
+soft25_sharp,R04C03,D25,500,0.25,moderately sparse transition region
+soft10_sharp,R04C03,D10,500,0.25,strong BBLR regime in previous phase map
+soft02_sharp,R04C03,D02,500,0.25,near-disconnected but nonempty transition region
+hard25_sharp_centre,R04C03,G25,500,0.25,transition inside modest hard gap
+hard40_sharp_edge,R04C04,G40,500,0.25,transition aligned with support-gap edge
+hard60_sharp_inside,R04C04,G60,500,0.25,transition inside large hard gap
+hard60_verysharp_inside,R05C04,G60,500,0.25,strongest prior BBLR-vs-spline regime
+hard60_broad_outside,R01C05,G60,500,0.25,broad transition outside gap; BBLR-favourable mechanism absent

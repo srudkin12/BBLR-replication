@@ -1,0 +1,21 @@
+{
+  "configs": "/media/simon/E490B01790AFEE6C/BBLR2/BBLR_MatchedHLambda_Audit_v1_0_1/data/FROZEN_SELECTED_CONFIGS.csv.gz",
+  "rows": 92000,
+  "jobs": 140,
+  "chunk_rows": 25,
+  "resume": true,
+  "seed_offset": 1618033,
+  "n_test": 3000,
+  "n_grid": 401,
+  "guard_width": 0.1,
+  "min_stage1": 15,
+  "min_stage2": 1,
+  "primary_comparator": "strict W_lambda local linear at frozen BBLR-selected (r,eps)",
+  "secondary_comparator": "W_lambda with BBLR Stage-1 15-NN safeguard when under-supported/singular",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

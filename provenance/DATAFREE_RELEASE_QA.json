@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-26T22:26:34.978805",
+  "data_policy": "NO_ELECTRICITY_OBSERVATION_DATA_IN_PUBLIC_REPOSITORY",
+  "electricity_input_files_removed": 0,
+  "configured_removal_paths_not_present": [
+    "code/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1/source_data/elecdaily.csv",
+    "code/09_electricity/BBLR_Electricity_GroupedPrimary_v1_0/source_data/evening1800_workdays.csv",
+    "code/09_electricity/BBLR_Electricity_GroupedPrimary_v1_0/source_data/peak_workdays.csv",
+    "evidence/core/09_electricity/BBLR_Electricity_Coefficient_Validation_v1_0_1_HANDback/source_data/construction_audit.csv",
+    "evidence/support_provenance/09_electricity/BBLR_Electricity_Empirical_v1_1_HANDback/source_data/elecdaily.csv",
+    "evidence/support_provenance/09_electricity/BBLR_Electricity_Peak_Evening_v1_0_HANDback/source_data/construction_audit.csv",
+    "evidence/support_provenance/09_electricity/BBLR_Electricity_Peak_Evening_v1_0_HANDback/source_data/derived_peak_evening_daily.csv",
+    "evidence/support_provenance/09_electricity/BBLR_Electricity_Peak_Evening_v1_0_HANDback/source_data/elecdaily.csv",
+    "evidence/support_provenance/09_electricity/BBLR_Electricity_Peak_Evening_v1_0_HANDback/source_data/elecdemand.csv"
+  ],
+  "remaining_source_data_nonREADME_files": [],
+  "remaining_known_electricity_input_filenames": [],
+  "manuscript_output_mapping_still_passes": true,
+  "manuscript_output_rows": 28,
+  "files_over_100mb": 0,
+  "embedded_zip_files": 0,
+  "data_availability_present": true,
+  "technical_pass": true,
+  "remaining_public_release_decision": "software licence only"
+}

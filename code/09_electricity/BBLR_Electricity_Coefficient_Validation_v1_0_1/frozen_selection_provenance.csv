@@ -1,0 +1,21 @@
+outcome,scheme,method,param,production_rmse,role
+peak,random,BBLR,"(2.5, 2.5)",0.3795893114825389,outcome-CV selected
+peak,random,LLR,"2.5",0.3812750778263986,outcome-CV selected
+peak,random,LP2,"6.0",0.378971,outcome-CV selected
+peak,random,PSpline,"(5, 0.1)",0.37684,outcome-CV selected
+peak,random,Hinge,"(20.0, 26.0)",0.386066,outcome-CV selected
+peak,grouped_week,BBLR,"(3.0, 0.0)",0.4043771635907567,outcome-CV selected
+peak,grouped_week,LLR,"3.0",0.4043771635907567,outcome-CV selected
+peak,grouped_week,LP2,"8.0",0.679197,outcome-CV selected
+peak,grouped_week,PSpline,"(5, 0.1)",0.389214,outcome-CV selected
+peak,grouped_week,Hinge,"(20.0, 28.0)",0.393194,outcome-CV selected
+evening1800,random,BBLR,"(2.5, 2.0)",0.4520576420106775,outcome-CV selected
+evening1800,random,LLR,"2.5",0.4541346349796868,outcome-CV selected
+evening1800,random,LP2,"6.0",0.452064,outcome-CV selected
+evening1800,random,PSpline,"(5, 0.1)",0.445868,outcome-CV selected
+evening1800,random,Hinge,"(20.0, 28.0)",0.448511,outcome-CV selected
+evening1800,grouped_week,BBLR,"(5.0, 4.0)",0.4638227902297962,outcome-CV selected
+evening1800,grouped_week,LLR,"3.0",0.4639349406584266,outcome-CV selected
+evening1800,grouped_week,LP2,"8.0",0.860383,outcome-CV selected
+evening1800,grouped_week,PSpline,"(4, 0.01)",0.45374,outcome-CV selected
+evening1800,grouped_week,Hinge,"(20.0, 28.0)",0.454768,outcome-CV selected

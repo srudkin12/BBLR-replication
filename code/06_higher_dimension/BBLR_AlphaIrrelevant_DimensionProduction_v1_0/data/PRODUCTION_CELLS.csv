@@ -1,0 +1,83 @@
+cell_id,track,d,active_dim,dgp,design,n_dev,n_test,noise_sd,origin_supported,cv_folds,cv_repeats,base_seed,label
+P2_001,ambient_dimension,2,2,linear,uniform,600,1600,0.5,True,3,2,2100000,Two active coordinates; independent nuisance dimensions
+P2_002,ambient_dimension,2,2,smooth,uniform,600,1600,0.5,True,3,2,2110007,Two active coordinates; independent nuisance dimensions
+P2_003,ambient_dimension,2,2,transition,uniform,600,1600,0.5,True,3,2,2120014,Two active coordinates; independent nuisance dimensions
+P2_004,ambient_dimension,2,2,highfreq,uniform,600,1600,0.5,True,3,2,2130021,Two active coordinates; independent nuisance dimensions
+P2_005,ambient_dimension,3,2,linear,uniform,600,1600,0.5,True,3,2,2140028,Two active coordinates; independent nuisance dimensions
+P2_006,ambient_dimension,3,2,smooth,uniform,600,1600,0.5,True,3,2,2150035,Two active coordinates; independent nuisance dimensions
+P2_007,ambient_dimension,3,2,transition,uniform,600,1600,0.5,True,3,2,2160042,Two active coordinates; independent nuisance dimensions
+P2_008,ambient_dimension,3,2,highfreq,uniform,600,1600,0.5,True,3,2,2170049,Two active coordinates; independent nuisance dimensions
+P2_009,ambient_dimension,5,2,linear,uniform,600,1600,0.5,True,3,2,2180056,Two active coordinates; independent nuisance dimensions
+P2_010,ambient_dimension,5,2,smooth,uniform,600,1600,0.5,True,3,2,2190063,Two active coordinates; independent nuisance dimensions
+P2_011,ambient_dimension,5,2,transition,uniform,600,1600,0.5,True,3,2,2200070,Two active coordinates; independent nuisance dimensions
+P2_012,ambient_dimension,5,2,highfreq,uniform,600,1600,0.5,True,3,2,2210077,Two active coordinates; independent nuisance dimensions
+P2_013,ambient_dimension,8,2,linear,uniform,600,1600,0.5,True,3,2,2220084,Two active coordinates; independent nuisance dimensions
+P2_014,ambient_dimension,8,2,smooth,uniform,600,1600,0.5,True,3,2,2230091,Two active coordinates; independent nuisance dimensions
+P2_015,ambient_dimension,8,2,transition,uniform,600,1600,0.5,True,3,2,2240098,Two active coordinates; independent nuisance dimensions
+P2_016,ambient_dimension,8,2,highfreq,uniform,600,1600,0.5,True,3,2,2250105,Two active coordinates; independent nuisance dimensions
+P2_017,ambient_dimension,12,2,linear,uniform,600,1600,0.5,True,3,2,2260112,Two active coordinates; independent nuisance dimensions
+P2_018,ambient_dimension,12,2,smooth,uniform,600,1600,0.5,True,3,2,2270119,Two active coordinates; independent nuisance dimensions
+P2_019,ambient_dimension,12,2,transition,uniform,600,1600,0.5,True,3,2,2280126,Two active coordinates; independent nuisance dimensions
+P2_020,ambient_dimension,12,2,highfreq,uniform,600,1600,0.5,True,3,2,2290133,Two active coordinates; independent nuisance dimensions
+P2_021,flat_null,2,0,flat,uniform,600,1600,0.5,True,3,2,2300140,Pure constant mean; every slope is irrelevant
+P2_022,flat_null,2,0,flat,corr_nuisance,600,1600,0.5,True,3,2,2310147,Pure constant mean with correlated covariates; every slope is irrelevant
+P2_023,flat_null,5,0,flat,uniform,600,1600,0.5,True,3,2,2320154,Pure constant mean; every slope is irrelevant
+P2_024,flat_null,5,0,flat,corr_nuisance,600,1600,0.5,True,3,2,2330161,Pure constant mean with correlated covariates; every slope is irrelevant
+P2_025,flat_null,8,0,flat,uniform,600,1600,0.5,True,3,2,2340168,Pure constant mean; every slope is irrelevant
+P2_026,flat_null,8,0,flat,corr_nuisance,600,1600,0.5,True,3,2,2350175,Pure constant mean with correlated covariates; every slope is irrelevant
+P2_027,flat_null,12,0,flat,uniform,600,1600,0.5,True,3,2,2360182,Pure constant mean; every slope is irrelevant
+P2_028,flat_null,12,0,flat,corr_nuisance,600,1600,0.5,True,3,2,2370189,Pure constant mean with correlated covariates; every slope is irrelevant
+P2_029,correlated_nuisance,3,2,linear,corr_nuisance,600,1600,0.5,True,3,2,2380196,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_030,correlated_nuisance,3,2,smooth,corr_nuisance,600,1600,0.5,True,3,2,2390203,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_031,correlated_nuisance,3,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2400210,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_032,correlated_nuisance,5,2,linear,corr_nuisance,600,1600,0.5,True,3,2,2410217,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_033,correlated_nuisance,5,2,smooth,corr_nuisance,600,1600,0.5,True,3,2,2420224,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_034,correlated_nuisance,5,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2430231,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_035,correlated_nuisance,8,2,linear,corr_nuisance,600,1600,0.5,True,3,2,2440238,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_036,correlated_nuisance,8,2,smooth,corr_nuisance,600,1600,0.5,True,3,2,2450245,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_037,correlated_nuisance,8,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2460252,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_038,correlated_nuisance,12,2,linear,corr_nuisance,600,1600,0.5,True,3,2,2470259,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_039,correlated_nuisance,12,2,smooth,corr_nuisance,600,1600,0.5,True,3,2,2480266,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_040,correlated_nuisance,12,2,transition,corr_nuisance,600,1600,0.5,True,3,2,2490273,Outcome ignores nuisance coordinates correlated with first active coordinate
+P2_041,support_geometry,2,2,transition,aligned_soft10,600,1600,0.5,True,3,2,2500280,Thin support aligned with changing-gradient direction
+P2_042,support_geometry,2,2,transition,orthogonal_soft10,600,1600,0.5,True,3,2,2510287,Thin support orthogonal to changing-gradient direction
+P2_043,support_geometry,5,2,transition,aligned_soft10,600,1600,0.5,True,3,2,2520294,Thin support aligned with changing-gradient direction
+P2_044,support_geometry,5,2,transition,orthogonal_soft10,600,1600,0.5,True,3,2,2530301,Thin support orthogonal to changing-gradient direction
+P2_045,support_geometry,8,2,transition,aligned_soft10,600,1600,0.5,True,3,2,2540308,Thin support aligned with changing-gradient direction
+P2_046,support_geometry,8,2,transition,orthogonal_soft10,600,1600,0.5,True,3,2,2550315,Thin support orthogonal to changing-gradient direction
+P2_047,support_geometry,12,2,transition,aligned_soft10,600,1600,0.5,True,3,2,2560322,Thin support aligned with changing-gradient direction
+P2_048,support_geometry,12,2,transition,orthogonal_soft10,600,1600,0.5,True,3,2,2570329,Thin support orthogonal to changing-gradient direction
+P2_049,all_active_dimension,2,2,linear_all,uniform,600,1600,0.5,True,3,2,2580336,All coordinates genuinely active
+P2_050,all_active_dimension,2,2,smooth_all,uniform,600,1600,0.5,True,3,2,2590343,All coordinates genuinely active
+P2_051,all_active_dimension,3,3,linear_all,uniform,600,1600,0.5,True,3,2,2600350,All coordinates genuinely active
+P2_052,all_active_dimension,3,3,smooth_all,uniform,600,1600,0.5,True,3,2,2610357,All coordinates genuinely active
+P2_053,all_active_dimension,5,5,linear_all,uniform,600,1600,0.5,True,3,2,2620364,All coordinates genuinely active
+P2_054,all_active_dimension,5,5,smooth_all,uniform,600,1600,0.5,True,3,2,2630371,All coordinates genuinely active
+P2_055,all_active_dimension,8,8,linear_all,uniform,600,1600,0.5,True,3,2,2640378,All coordinates genuinely active
+P2_056,all_active_dimension,8,8,smooth_all,uniform,600,1600,0.5,True,3,2,2650385,All coordinates genuinely active
+P2_057,all_active_dimension,12,12,linear_all,uniform,600,1600,0.5,True,3,2,2660392,All coordinates genuinely active
+P2_058,all_active_dimension,12,12,smooth_all,uniform,600,1600,0.5,True,3,2,2670399,All coordinates genuinely active
+P2_059,alpha_extrapolation,2,2,linear,shifted_uniform,600,1600,0.5,False,3,2,2680406,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_060,alpha_extrapolation,2,2,smooth,shifted_uniform,600,1600,0.5,False,3,2,2690413,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_061,alpha_extrapolation,2,2,transition,shifted_uniform,600,1600,0.5,False,3,2,2700420,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_062,alpha_extrapolation,5,2,linear,shifted_uniform,600,1600,0.5,False,3,2,2710427,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_063,alpha_extrapolation,5,2,smooth,shifted_uniform,600,1600,0.5,False,3,2,2720434,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_064,alpha_extrapolation,5,2,transition,shifted_uniform,600,1600,0.5,False,3,2,2730441,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_065,alpha_extrapolation,8,2,linear,shifted_uniform,600,1600,0.5,False,3,2,2740448,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_066,alpha_extrapolation,8,2,smooth,shifted_uniform,600,1600,0.5,False,3,2,2750455,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_067,alpha_extrapolation,8,2,transition,shifted_uniform,600,1600,0.5,False,3,2,2760462,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_068,alpha_extrapolation,12,2,linear,shifted_uniform,600,1600,0.5,False,3,2,2770469,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_069,alpha_extrapolation,12,2,smooth,shifted_uniform,600,1600,0.5,False,3,2,2780476,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_070,alpha_extrapolation,12,2,transition,shifted_uniform,600,1600,0.5,False,3,2,2790483,"Observed factor support [0,2]^d; reference alpha at zero is extrapolative"
+P2_071,sample_size_recovery,8,2,transition,uniform,1200,2000,0.5,True,3,2,2800490,Dimension/sample-size recovery cell; two active coordinates
+P2_072,sample_size_recovery,8,2,transition,uniform,2400,2000,0.5,True,3,2,2810497,Dimension/sample-size recovery cell; two active coordinates
+P2_073,sample_size_recovery,8,2,transition,corr_nuisance,1200,2000,0.5,True,3,2,2820504,Dimension/sample-size recovery cell; two active coordinates
+P2_074,sample_size_recovery,8,2,transition,corr_nuisance,2400,2000,0.5,True,3,2,2830511,Dimension/sample-size recovery cell; two active coordinates
+P2_075,sample_size_recovery,8,2,transition,aligned_soft10,1200,2000,0.5,True,3,2,2840518,Dimension/sample-size recovery cell; two active coordinates
+P2_076,sample_size_recovery,8,2,transition,aligned_soft10,2400,2000,0.5,True,3,2,2850525,Dimension/sample-size recovery cell; two active coordinates
+P2_077,sample_size_recovery,12,2,transition,uniform,1200,2000,0.5,True,3,2,2860532,Dimension/sample-size recovery cell; two active coordinates
+P2_078,sample_size_recovery,12,2,transition,uniform,2400,2000,0.5,True,3,2,2870539,Dimension/sample-size recovery cell; two active coordinates
+P2_079,sample_size_recovery,12,2,transition,corr_nuisance,1200,2000,0.5,True,3,2,2880546,Dimension/sample-size recovery cell; two active coordinates
+P2_080,sample_size_recovery,12,2,transition,corr_nuisance,2400,2000,0.5,True,3,2,2890553,Dimension/sample-size recovery cell; two active coordinates
+P2_081,sample_size_recovery,12,2,transition,aligned_soft10,1200,2000,0.5,True,3,2,2900560,Dimension/sample-size recovery cell; two active coordinates
+P2_082,sample_size_recovery,12,2,transition,aligned_soft10,2400,2000,0.5,True,3,2,2910567,Dimension/sample-size recovery cell; two active coordinates

@@ -1,0 +1,88 @@
+{
+  "folds": 5,
+  "repeats": 5,
+  "development_multiplier": 2.0,
+  "n_test": 3000,
+  "n_grid_eval": 401,
+  "r_grid": [
+    0.08,
+    0.12,
+    0.18,
+    0.26,
+    0.38,
+    0.55,
+    0.8,
+    1.2,
+    2.0,
+    4.0
+  ],
+  "eps_grid": [
+    0.0,
+    0.04,
+    0.08,
+    0.12,
+    0.18,
+    0.26,
+    0.38,
+    0.55,
+    0.8,
+    1.2,
+    2.0,
+    4.0
+  ],
+  "k_grid": [
+    15,
+    25,
+    40,
+    60,
+    90,
+    130,
+    180,
+    250,
+    350,
+    500
+  ],
+  "lambda_grid": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "gap_factor_grid": [
+    16.0,
+    20.0,
+    30.0,
+    Infinity
+  ],
+  "methods": [
+    "BBLR",
+    "LLR",
+    "AKLLR",
+    "AKLP2",
+    "SPLINE",
+    "CAKLLR",
+    "CAKLP2",
+    "CSPLINE"
+  ],
+  "min_stage1": 15,
+  "min_stage2": 1,
+  "component_min_points": 15,
+  "guard_width": 0.1,
+  "seed_offset": 2718281,
+  "jobs": 140,
+  "chunk_reps": 5,
+  "resume": true,
+  "cells_file": "/media/simon/E490B01790AFEE6C/BBLR2/BBLR_StrongComparator_RCV_v1_7/STRONG_COMPARATOR_CELLS.csv",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "n_cells_observed": 9,
+  "cell_rep_observed": 4500,
+  "cell_rep_expected": 4500,
+  "rows_ok": 22500,
+  "rows_total": 22500,
+  "failed_rows": 0,
+  "expected_methods_per_cell_rep": 5,
+  "all_cell_reps_have_all_methods": true
+}

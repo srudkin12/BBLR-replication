@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "n_stage2_zero_pairs": 2139,
+  "empirical_check": "evaluated",
+  "unit_test_exact_nesting": true,
+  "tolerance": 1e-10,
+  "max_abs_metric_difference": 0.0,
+  "metric_max_abs_differences": {
+    "test_mean_rmse": 0.0,
+    "gradient_vector_rmse": 0.0,
+    "active_gradient_vector_rmse": 0.0,
+    "tangent_alpha_rmse": 0.0,
+    "reference_alpha0_abs_error": 0.0,
+    "coefficient_field_vector_rmse": 0.0,
+    "nuisance_vector_rmse": 0.0,
+    "nuisance_vector_rmse_per_sqrt_dim": 0.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "expected_chunks": 12000,
+  "present_chunks": 12000,
+  "missing_chunks": 0,
+  "missing_files": [],
+  "wall_seconds": 48861.23944746796,
+  "jobs": 140,
+  "chunk_reps": 2,
+  "status": "PASS"
+}

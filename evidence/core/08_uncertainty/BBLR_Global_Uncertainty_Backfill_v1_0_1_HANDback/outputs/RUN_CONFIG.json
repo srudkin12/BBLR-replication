@@ -1,0 +1,8 @@
+{
+  "root": "/media/simon/E490B01790AFEE6C/BBLR2",
+  "io_workers": 12,
+  "compute_workers": 80,
+  "inventory_rows": 187070,
+  "candidates_processed": 131678,
+  "ready_sources": 89496
+}

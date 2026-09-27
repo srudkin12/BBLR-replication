@@ -1,0 +1,19 @@
+{
+  "rows": 92000,
+  "cells": 92,
+  "min_reps_per_cell": 1000,
+  "max_reps_per_cell": 1000,
+  "positive_stage2_rows": 78749,
+  "archive_test_rmse_max_abs_diff": 2.220446049250313e-16,
+  "archive_grid_rmse_max_abs_diff": 1.7763568394002505e-15,
+  "eps0_rows": 13251,
+  "eps0_bblr_wsafe_test_max_abs_diff": 5.097287036903707e-10,
+  "eps0_bblr_wsafe_grid_max_abs_diff": 7.239779726830875e-07,
+  "strict_test_valid_share_mean": 0.9938699166666667,
+  "strict_supported_grid_valid_share_mean": 0.9944373883219884,
+  "safe_test_fallback_share_mean": 0.004139300724637679,
+  "safe_supported_grid_fallback_share_mean": 0.012868595076245413,
+  "expected_rows": 92000,
+  "expected_cells": 92,
+  "status": "CHECK"
+}

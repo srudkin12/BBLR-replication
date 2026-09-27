@@ -1,0 +1,12 @@
+study_id,rows_before,rows_after_identity_merge,rows_collapsed_or_complementary,conflicting_values
+higher_dimension,856000,856000,0,0
+matched_hlambda_stable,276000,276000,0,0
+matched_hlambda,368000,368000,0,0
+legacy_coefficient_replay,2588000,1294000,1294000,0
+bivariate_broad,928000,464000,464000,0
+bivariate_fine_locality,192000,96000,96000,0
+bivariate_support_aware,228000,114000,114000,0
+operating_map,2668000,1288000,1380000,0
+strong_comparator,432000,216000,216000,0
+noise_uncertainty,135000,45000,90000,0
+local_sparse,22520,22500,20,0

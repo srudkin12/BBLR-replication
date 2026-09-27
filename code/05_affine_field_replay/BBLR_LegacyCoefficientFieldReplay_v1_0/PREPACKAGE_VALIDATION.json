@@ -1,0 +1,8 @@
+{
+  "unit_tests": "3 passed",
+  "preflight_rows": 111,
+  "preflight_failed_rows": 0,
+  "preflight_replay_max_abs_error": 6.861178292183467e-14,
+  "preflight_status": "PASS",
+  "scientific_scope": "frozen-selection replay of 220,000 historical replications; no retuning"
+}

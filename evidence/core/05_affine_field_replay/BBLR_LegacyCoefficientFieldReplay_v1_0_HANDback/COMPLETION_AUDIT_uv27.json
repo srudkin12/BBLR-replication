@@ -1,0 +1,8 @@
+{
+  "track": "uv27",
+  "expected_chunks": 2700,
+  "present_chunks": 2700,
+  "expected_rows": 243000,
+  "wall_seconds": 1279.6141592259519,
+  "status": "PASS"
+}

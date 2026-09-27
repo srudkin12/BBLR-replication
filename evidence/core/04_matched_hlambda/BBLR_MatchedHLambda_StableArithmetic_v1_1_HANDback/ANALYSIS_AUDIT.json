@@ -1,0 +1,21 @@
+{
+  "rows": 92000,
+  "cells": 92,
+  "positive_stage2_rows": 78749,
+  "archive_test_rmse_max_abs_diff": 2.220446049250313e-16,
+  "archive_grid_rmse_max_abs_diff": 1.7763568394002505e-15,
+  "normal_counts": {
+    "BBLR_better": 73,
+    "W_better": 14,
+    "unclear": 5
+  },
+  "centered_counts": {
+    "BBLR_better": 73,
+    "W_better": 14,
+    "unclear": 5
+  },
+  "max_test_slope_abs_diff": 0.0051480569636623,
+  "q99_test_slope_abs_diff": 5.378232081908944e-11,
+  "max_fallback_mask_disagreement_share": 0.0,
+  "status": "CHECK"
+}

@@ -1,0 +1,7 @@
+{
+  "rows": 92000,
+  "jobs": 80,
+  "chunk_rows": 25,
+  "selection": "frozen; no retuning",
+  "comparison": "same W_lambda estimator, normal vs centred arithmetic"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "n_cells_observed": 82,
+  "cell_rep_observed": 82000,
+  "cell_rep_expected_from_observed_cells": 82000,
+  "rows_ok": 856000,
+  "rows_total": 856000,
+  "failed_rows": 0,
+  "matched_radius_identity_status": "PASS"
+}

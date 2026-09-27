@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-26T21:29:19.879089",
+  "mapped_outputs": 28,
+  "expected_outputs": 28,
+  "mapping_pass": true,
+  "partial_mapping_rows": 0,
+  "unmapped_rows": 0,
+  "electricity_files": 165,
+  "likely_electricity_data_files": 92,
+  "files_over_100mb": 0,
+  "embedded_zip_files": 0,
+  "citation_release_date_removed": true,
+  "release_gate": "TECHNICAL_PASS_AUTHOR_RELEASE_DECISIONS_REMAIN",
+  "public_release_blockers": [
+    "software licence author decision",
+    "electricity-data redistribution author/source-rights confirmation"
+  ]
+}

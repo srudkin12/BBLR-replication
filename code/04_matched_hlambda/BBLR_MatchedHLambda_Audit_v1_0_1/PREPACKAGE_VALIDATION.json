@@ -1,0 +1,17 @@
+{
+  "pytest": "PASS: 6 tests",
+  "branch_preflight_rows": 36,
+  "branch_preflight_cells": 10,
+  "branch_preflight_status": "PASS",
+  "archive_test_rmse_max_abs_diff": 9.887923813067799e-17,
+  "archive_grid_rmse_max_abs_diff": 9.887923813067799e-17,
+  "eps0_bblr_wsafe_test_max_abs_diff": 7.130562806878514e-11,
+  "eps0_bblr_wsafe_grid_max_abs_diff": 6.053069157019307e-11,
+  "strict_test_valid_share_mean_preflight": 0.9999444444444445,
+  "strict_supported_grid_valid_share_mean_preflight": 0.9895400387919092,
+  "note": "Preflight intentionally spans eps=0, lambda<1, lambda=1, lambda>1, severe depletion, D10, high-frequency low-noise, polynomial negative control, normal/skewed non-uniform density, uniform control, and hard-gap branches.",
+  "package_version": "v1.0.1",
+  "numpy_2_5_compatibility_fix": "tests use numpy.trapezoid rather than removed numpy.trapz alias; estimator code unchanged",
+  "post_hotfix_pytest": "PASS: 6 tests (local NumPy 2.3.5); NumPy 2.5 compatibility issue is removed because tests now call numpy.trapezoid",
+  "post_hotfix_scientific_preflight": "PASS: 36 rows / 10 cells; archive and eps=0 identity diagnostics unchanged"
+}
